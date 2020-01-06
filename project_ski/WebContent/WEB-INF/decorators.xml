@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<decorators defaultdir="/decorator">
+	<decorator name="member" page="decoration2.jsp">
+		<pattern>/model2/member/*</pattern>
+	</decorator>
+	<decorator name="board" page="decoration2.jsp">
+		<pattern>/model2/board/*</pattern>
+	</decorator>
+	<decorator name="login" page="decoration3.jsp">
+		<pattern>/model2/login/*</pattern>
+	</decorator>
+	
+	<excludes>
+		<pattern>/model2/login/idForm*</pattern>
+		<pattern>/model2/login/pwForm*</pattern>
+		<pattern>/model2/login/pictureFrom*</pattern>
+		<pattern>/model2/login/chpwForm*</pattern>
+		<pattern>/model2/login/deleteForm*</pattern>
+		<pattern>/model2/login/id*</pattern>
+		<pattern>/model2/login/pw*</pattern>
+		<pattern>/model2/board/imgupload*</pattern>
+		
+		
+	</excludes>
+</decorators>
